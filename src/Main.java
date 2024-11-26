@@ -94,7 +94,7 @@ public class Main {
 
         System.out.println("Кристина теперь получает " + increaseKristinaSalary + " рублей в месяц.");
         System.out.println("Годовой доход вырос на " + kristinaAnnualDifference + " рублей.");
-        System.out.println("as");
+
 
 
 
