@@ -71,21 +71,21 @@ public class Main {
         float increaseDenisSalary = (float) (denisSalary * 1.1);
         float increaseKristinaSalary = (float) (kristinaSalary * 1.1);
 
-        int mashaAnnualSalary = mashaSalary * 12; // Годовой доход Маши
-        int denisAnnualSalary = denisSalary * 12; // Годовой доход Дениса
-        int kristinaAnnualSalary = kristinaSalary * 12; // Годовой доход Кристины
+        int mashaAnnualSalary = mashaSalary * 12;
+        int denisAnnualSalary = denisSalary * 12;
+        int kristinaAnnualSalary = kristinaSalary * 12;
 
-        // Годовой доход после повышения
-        double mashaNewAnnualSalary = increaseMashaSalary * 12; // Новый годовой доход Маши
-        double denisNewAnnualSalary = increaseDenisSalary * 12; // Новый годовой доход Дениса
-        double kristinaNewAnnualSalary = increaseKristinaSalary * 12; // Новый годовой доход Кристины
 
-        // Разница в годовом доходе
+        double mashaNewAnnualSalary = increaseMashaSalary * 12;
+        double denisNewAnnualSalary = increaseDenisSalary * 12;
+        double kristinaNewAnnualSalary = increaseKristinaSalary * 12;
+
+
         double mashaAnnualDifference = mashaNewAnnualSalary - mashaAnnualSalary;
         double denisAnnualDifference = denisNewAnnualSalary - denisAnnualSalary;
         double kristinaAnnualDifference = kristinaNewAnnualSalary - kristinaAnnualSalary;
 
-        // Вывод результатов
+
         System.out.println("Маша теперь получает " + increaseMashaSalary + " рублей в месяц.");
         System.out.println("Годовой доход вырос на " + mashaAnnualDifference + " рублей.");
 
@@ -94,7 +94,7 @@ public class Main {
 
         System.out.println("Кристина теперь получает " + increaseKristinaSalary + " рублей в месяц.");
         System.out.println("Годовой доход вырос на " + kristinaAnnualDifference + " рублей.");
-
+        System.out.println("все");
 
 
 
